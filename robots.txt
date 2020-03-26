@@ -1,4 +1,4 @@
 # fichier pour les robots du site https://lachouette-agence.netlify.com/index.html
 Agent utilisateur: *
 Interdire: /includes/form_1.php
-Plan du site: https://github.com/nico94700/SEO-P4/sitemap.xml
+Plan du site: https://lachouette-agence.netlify.com/robots.txt
