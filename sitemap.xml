@@ -8,11 +8,15 @@
 
 
 <url>
-  <loc>https://lachouette-agence.netlify.com/index.html</loc>
-  <lastmod>2020-03-24T10:37:10+00:00</lastmod>
+  <loc>https://lachouette-agence.netlify.com/</loc>
+  <lastmod>2020-03-28T11:09:04+00:00</lastmod>
   <priority>1.00</priority>
 </url>
-
+<url>
+  <loc>https://lachouette-agence.netlify.com/index.html</loc>
+  <lastmod>2020-03-28T11:09:04+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
 
 
 </urlset>
