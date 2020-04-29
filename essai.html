@@ -42,10 +42,10 @@
 						<nav class="navbar row">
 							<div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
 								<ul class="site-navigation nav navbar-nav">
-									<li><a title="Accueil" href= "#index.html">Accueil</a></li>
+									<li><a title="Accueil" href= "index.html">Accueil</a></li>
 									<li><a title="Nos métiers" href="#metiers">Nos métiers</a></li>
 									<li><a title="Nos réalisations" href="#realisation">Nos réalisations</a></li>
-									<li><a title="Contactez-nous" href="./contact.html">Contact</a></li>
+									<li><a title="Contactez-nous" href="#contact">Contact</a></li>
 								</ul>
 							</div>
 						</nav>
@@ -58,7 +58,7 @@
 							<img src="img/logo.png" class="logo center-block image-resize-mode" alt="logo de l'agence" />
 							<h1 class="text-center hero-bloc-text tc-white "> La chouette agence.</h1>
 							<div class="text-center">
-								<a href="./contact.html" class="btn btn-lg btn-clean btn-rd cta-hero btn-atomic-tangerine" id="cta-hero">Contact </a>
+								<a href="#contact" class="btn btn-lg btn-clean btn-rd cta-hero btn-atomic-tangerine" id="cta-hero">Contact </a>
 							</div>
 						</div>
 					</div>
@@ -123,7 +123,7 @@
 								 Nous aimons collaborer avec des entrepreneurs créatifs et des entreprises locale, qu’elles aient besoin de créer un site de A à Z ou de donner un coup de jeune à leur site. Que vous ayez besoin d’une identité visuelle complète ou d’une refonte de votre site, n’hésitez pas à nous contacter. Nous travaillerons ensemble pour créer des sites beau et bien structurés, qui seront facilement trouvable sur les moteurs de recherche. 
 								<br>
 								<br>
-								<a href="contact.html" class="ltc-white bold-link">Contactez notre équipe </a>
+								<a href="#contact" class="ltc-white bold-link">Contactez notre équipe </a>
 								<br>
 							</p>
 						</div>
@@ -139,14 +139,14 @@
 					</div>
 					<div class="row tight-width-whitespace portfolio-row">
 						<article class="col-sm-6">
-							<a href ="#" data-lightbox="img/journal.jpg" data-gallery-id="gallery-1" data-caption="Refonte d'un site web pour un journal local" data-frame="snapshot-lb"><img src="img/journal.jpg" alt="journal Lyonnais" class="img-responsive portfolio-thumb" /></a>
+							<a href ="img/journal.jpg" href=# data-lightbox="img/journal.jpg" data-gallery-id="gallery-1" data-caption="Refonte d'un site web pour un journal local" data-frame="snapshot-lb"><img src="img/journal.jpg" alt="journal Lyonnais" class="img-responsive portfolio-thumb" /></a>
 							<h3 class="mg-md text-center"> Refonte d'un site web pour un journal local</h3>
 							<p class="text-center">
 								 Nous avons créé une nouvelle identité visuelle pour un journal lyonnais.
 							</p>
 						</article>
 						<article class="col-sm-6">
-							<a href="#" data-lightbox="img/photographe.jpg" data-gallery-id="gallery-1" data-caption="Création d'un site web pour photographes" data-frame="snapshot-lb"><img src="img/photographe.jpg" class="img-responsive portfolio-thumb" alt="photographes" /></a>
+							<a title="agrandir l'image" href=# data-lightbox="img/photographe.jpg" data-gallery-id="gallery-1" data-caption="Création d'un site web pour photographes" data-frame="snapshot-lb"><img src="img/photographe.jpg" class="img-responsive portfolio-thumb" alt="photographes" /></a>
 							<h3 class="mg-md text-center"> Création d'un site web pour photographes</h3>
 							<p class="text-center">
 								 Nous avons conçu la plateforme idéale pour laisser place aux clichés des photographes.
@@ -169,10 +169,62 @@
 							</p>
 						</article>
 					</div>
+				</div>
 					
 			
 			</section>
-			
+			<aside class="bloc bgc-dark-slate-blue bg-banniere d-bloc bloc-bg-texture texture-paper" id="bloc-5-cta">
+				<div class="container bloc-lg">
+					<h2 class="mg-md text-center tc-white"> Prêt pour redonner vie à votre projet ?<br>Contactez notre équipe !</h2>
+					<div class="bloc bg-dots-bg bg-repeat bgc-atomic-tangerine d-bloc bloc-bg-texture texture-paper" id="bloc-6">
+						<div class="row">
+							<div class="col-sm-12">
+								<h3 class="text-center hero-bloc-text tc-white"> Parlons web design !</h3>
+								<p class="text-center mg-lg tc-white tight-width-whitespace">
+									 Nous sommes ravis que vous souhaitiez collaborer avec notre agence. 
+									<br>
+									 Parlez-nous de votre projet en complétant le formulaire ci-dessous.
+								</p>
+							</div>
+						</div>
+					</div>
+					<div role="search" class="bloc bgc-white l-bloc" id="bloc-7">
+						<div class="container bloc-lg">
+							<div id="contact" class="col-lg-6 col-3">
+								<form id="form_1 novalidate>
+									<div class="form-group">
+										<label for= "name"> Nom </label>
+										<input id="name" name="name " type="text" class="form-control" required />
+									</div>
+									<div class="form-group">
+										<label for ="email"> Adresse email </label>
+										<input id="email" name="email " type="email" class="form-control" required />
+									</div>
+									<div class="form-group">
+										<label for="text"> Comment nous avez-vous connu ? </label>
+										<input id="text" name="text" type="text" class="form-control" required />
+									</div>
+									<div class="form-group">
+										<label for="message"> Brief de votre projet (Ajoutez autant de détails que nécessaire)<br></label>
+										<textarea id="message" name="message" class="form-control" rows="4" cols= "50" required></textarea>
+									</div>
+									<button class=" bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type=" submit"> Envoyer </button>
+								</form>
+							</div>
+							<div class="col-6">
+								<address>
+									 contact@lachouetteagence.com 
+									<br>
+									 2 place Sathonay 69001 Lyon 
+									<br>
+									 Ouvert de 9h à 18h, du lundi au vendredi 
+									<br>
+								</address>
+							</div>
+						</div>
+					</div>
+				</div>
+			</aside>
 			<footer class="bloc bgc-atomic-tangerine d-bloc" id="bloc-8">
 				<div class="container bloc-sm">
 					<div class="col-sm-12">
