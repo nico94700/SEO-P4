@@ -14,6 +14,7 @@ font-style: normal}
 	font: normal normal normal 14px/1 FontAwesome;
 	font-size: inherit;
 	text-rendering: auto;
+	margin: -1rem 10rem 3rem -5rem;
 	-webkit-font-smoothing: antialiased;
 -moz-osx-font-smoothing: grayscale}
 
@@ -785,10 +786,12 @@ content: "\f098"}
 
 .fa-twitter:before
 {
+	margin: 1rem;
 content: "\f099"}
 
 .fa-facebook-f:before,.fa-facebook:before
 {
+margin: 2rem 1rem 4rem -13rem;
 content: "\f09a"}
 
 .fa-github:before
@@ -1525,6 +1528,7 @@ content: "\f16c"}
 
 .fa-instagram:before
 {
+	margin: 1rem;
 content: "\f16d"}
 
 .fa-flickr:before
@@ -1585,6 +1589,7 @@ content: "\f17c"}
 
 .fa-dribbble:before
 {
+margin: 1rem;
 content: "\f17d"}
 
 .fa-skype:before
