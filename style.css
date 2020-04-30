@@ -637,7 +637,7 @@ h4 {
 	box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.3)
 }
 .black-background {
-	background-color: rgba(165, 147, 99, 0.7);
+	background-color: #CF4A0C;
 	padding: 40px 40px 40px 40px
 }
 .bold-link {
@@ -651,13 +651,13 @@ h4 {
 	background-color: #364577
 }
 .bgc-atomic-tangerine {
-	background-color: #d97040
+	background-color: #963508
 }
 .tc-white {
-	color: #FB6418!important
+	color: #FFFF!important
 }
 .btn-atomic-tangerine {
-	background: #CF4A0C;
+	background: #963508;
 	color: #FFFFFF!important
 }
 .btn-atomic-tangerine:hover {
