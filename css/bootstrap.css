@@ -1385,6 +1385,7 @@ margin: 0}
 
 img
 {
+	margin: auto;
 vertical-align: middle}
 
 .carousel-inner>.item>a>img,.carousel-inner>.item>img,.img-responsive,.thumbnail a>img,.thumbnail>img
@@ -1503,7 +1504,7 @@ font-size: 12px}
 
 p
 {
-margin: 0 0 10px}
+margin: 0 0 0px}
 
 .lead
 {
